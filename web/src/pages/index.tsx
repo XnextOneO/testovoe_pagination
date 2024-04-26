@@ -51,7 +51,7 @@ export default function Home({statusCode, users, total}: TGetServerSideProps) {
   const router = useRouter();
 
 
-  const pagesToShow = 9;
+  const pagesToShow = 10;
   const pagesOffset = Math.floor(pagesToShow / 2);
 
   let startPage = currentPage - pagesOffset;
